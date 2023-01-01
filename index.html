@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Allan" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="dictionary-api.js" defer></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <h2>Free Dictionary</h2>
+  <audio id="sound"></audio>
+  <nav class="nav-bar-top">
+    <div class="heading">
+      <h1>Free Dictionary</h1>
+    </div>
+    <div class="home_about_contact_settings">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <i class="i_altering fa-sharp fa-solid fa-gear" id="setting_btn"></i>
+    </div>
+  </nav>
+  <!-- ******************************************************************************** -->
+  <div class="container-input-wm">
+    <div class="container-main_search-bar_search-button">
+      <div class="container-2nd_search-bar_search-button">
+        <input type="text" placeholder="Search Word..." class="input_word" id="inputword" />
+        <button id="searchbtn" class="search-button">
+          <img src="Img/search.png" />
+        </button>
+      </div>
+    </div>
+    <!-- ******************************************************************************** -->
+    <!-- The Container Holds Result (Word-Meaning)... -->
+    <div class="container-wm">
+      <div class="result" id="result"></div>
+    </div>
+  </div>
+</body>
+
+</html>
